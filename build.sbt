@@ -43,7 +43,8 @@ lazy val pluginTravis = (project in file("codefeedr-plugins/codefeedr-travis"))
     settings,
     assemblySettings,
     libraryDependencies ++= commonDependencies ++ Seq(
-      dependencies.httpj
+      dependencies.httpj,
+      dependencies.codefeedrGitHub
     )
   )
 
