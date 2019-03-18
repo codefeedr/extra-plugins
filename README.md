@@ -1,5 +1,6 @@
 # extra-plugins
 [![Build Status](https://travis-ci.org/codefeedr/extra-plugins.svg?branch=master)](https://travis-ci.org/codefeedr/extra-plugins)
+
 A set of not-so-important CodeFeedr plugins. 
 
 ## Plugins
