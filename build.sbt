@@ -92,7 +92,7 @@ lazy val dependencies =
     val flinkRabbitMQ      = "org.apache.flink"          %% "flink-connector-rabbitmq"       % flinkVersion
 
     val codefeedrCore      = "org.codefeedr"             %% "codefeedr-core"                 % codefeedrVersion
-    val codefeedrGitHub    = "org.codefeedr.plugins"     %% "codefeedr-github"               % codefeedrVersion
+    val codefeedrGitHub    = "org.codefeedr"             %% "codefeedr-plugin-github"        % codefeedrVersion
 
     val redis              = "net.debasishg"             %% "redisclient"                    % "3.6"
     val kafkaClient        = "org.apache.kafka"           % "kafka-clients"                  % "1.0.0"
